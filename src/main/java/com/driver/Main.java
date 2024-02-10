@@ -6,6 +6,8 @@ public class Main {
         public String meth(String str){
             return str;
         }
+
+        String ans = meth("hello");
     }
     
     public static class B extends A{
