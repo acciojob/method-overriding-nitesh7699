@@ -10,7 +10,7 @@ public class Main {
         String ans = meth();
     }
     
-    public static class B extends A{
+    public static class B extends A{//
         public String meth(){
             return str;
         }
