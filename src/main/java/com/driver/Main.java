@@ -9,8 +9,8 @@ public class Main {
     }
     
     public static class B extends A{
-        public String meth(String str1){
-            return str1;
+        public String meth(String str){
+            return str;
         }
     }
 
@@ -18,7 +18,7 @@ public class Main {
         
         B obj = new B();
         String ans = obj.meth("hello");///////
-        String ans1 = obj.meth("person");/////
+        String ans1 = obj.meth("hello");/////
 
     }
 }
