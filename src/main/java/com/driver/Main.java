@@ -4,7 +4,7 @@ public class Main {
 
     public static class A{
         public String meth(){
-            return str;
+            return "hello";
         }
 
         String ans = meth();
@@ -12,7 +12,7 @@ public class Main {
     
     public static class B extends A{//
         public String meth(){
-            return str;
+            return "hello";
         }
     }
 
