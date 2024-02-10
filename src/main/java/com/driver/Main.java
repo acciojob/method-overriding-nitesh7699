@@ -17,7 +17,7 @@ public class Main {
         
         B obj = new B();
         String ans = obj.meth("hello");///////
-        String ans1 = obj1.meth("person");/////
+        String ans1 = obj.meth("person");/////
 
     }
 }
