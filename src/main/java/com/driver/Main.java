@@ -2,13 +2,13 @@ package com.driver;
 
 public class Main {
 
-    static class A{
+    public static class A{
         public String meth(String str){
             return str;
         }
     }
     
-    static class B extends A{
+    public static class B extends A{
         public String meth(String str1){
             return str1;
         }
