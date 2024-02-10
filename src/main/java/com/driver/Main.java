@@ -3,16 +3,18 @@ package com.driver;
 public class Main {
 
     public static class A{
+        String str;
         public String meth(){
-            return "hello";
+            return this.str;
         }
 
-        String ans = meth();
+        //String ans = meth();
     }
     
     public static class B extends A{//
+        String str;
         public String meth(){
-            return "hello";
+            return this.str;
         }
     }
 
