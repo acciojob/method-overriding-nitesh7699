@@ -3,14 +3,13 @@ package com.driver;
 public class Main {
 
     public static class A{
-
-        public String meth(String s){
+        public String meth(){
             return "invoking method from class A";
         }
     }
     
     public static class B extends A{//
-        public String meth(String str){
+        public String meth(){
             return "method is overridden in extended class B";
         }
     }
